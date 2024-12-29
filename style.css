@@ -50,7 +50,7 @@ table td {
 
 table th:nth-child(2),
 table td:nth-child(2) {
-    max-width: 300px; /* Adjust width as needed */
+    max-width: 450px; /* Adjust width as needed */
     padding: 0.15rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
