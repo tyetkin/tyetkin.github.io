@@ -58,6 +58,16 @@ table td:nth-child(2) {
     overflow: hidden;
 }
 
+table th:nth-child(3),
+table td:nth-child(3) {
+    max-width: 150px; /* Adjust width as needed */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal; /* Allow wrapping or set to nowrap for ellipsis */
+    text-overflow: ellipsis; /* Optional, for truncation */
+    overflow: hidden;
+}
+
 
 
 table th {
